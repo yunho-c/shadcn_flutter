@@ -337,6 +337,7 @@ class ColorScheme implements ChartColorScheme {
     'chart3',
     'chart4',
     'chart5',
+    'selection',
   };
   final Brightness brightness;
   final Color background;
@@ -358,6 +359,7 @@ class ColorScheme implements ChartColorScheme {
   final Color border;
   final Color input;
   final Color ring;
+  final Color selection;
   @override
   final Color chart1;
   @override
@@ -390,6 +392,7 @@ class ColorScheme implements ChartColorScheme {
     required this.border,
     required this.input,
     required this.ring,
+    required this.selection,
     required this.chart1,
     required this.chart2,
     required this.chart3,
@@ -417,6 +420,7 @@ class ColorScheme implements ChartColorScheme {
         border = map._col('border'),
         input = map._col('input'),
         ring = map._col('ring'),
+        selection = map._col('selection'),
         chart1 = map._col('chart1'),
         chart2 = map._col('chart2'),
         chart3 = map._col('chart3'),
@@ -448,6 +452,7 @@ class ColorScheme implements ChartColorScheme {
       'border': hexFromColor(border),
       'input': hexFromColor(input),
       'ring': hexFromColor(ring),
+      'selection': hexFromColor(selection),
       'chart1': hexFromColor(chart1),
       'chart2': hexFromColor(chart2),
       'chart3': hexFromColor(chart3),
@@ -478,6 +483,7 @@ class ColorScheme implements ChartColorScheme {
       'border': border,
       'input': input,
       'ring': ring,
+      'selection': selection,
       'chart1': chart1,
       'chart2': chart2,
       'chart3': chart3,
@@ -510,6 +516,7 @@ class ColorScheme implements ChartColorScheme {
           border: colors._col('border'),
           input: colors._col('input'),
           ring: colors._col('ring'),
+          selection: colors._col('selection'),
           chart1: colors._col('chart1'),
           chart2: colors._col('chart2'),
           chart3: colors._col('chart3'),
@@ -538,6 +545,7 @@ class ColorScheme implements ChartColorScheme {
     Color? border,
     Color? input,
     Color? ring,
+    Color? selection,
   }) {
     return ColorScheme(
       brightness: brightness ?? this.brightness,
@@ -561,6 +569,7 @@ class ColorScheme implements ChartColorScheme {
       border: border ?? this.border,
       input: input ?? this.input,
       ring: ring ?? this.ring,
+      selection: selection ?? this.selection,
       chart1: chart1,
       chart2: chart2,
       chart3: chart3,
@@ -598,6 +607,7 @@ class ColorScheme implements ChartColorScheme {
       border: Color.lerp(a.border, b.border, t)!,
       input: Color.lerp(a.input, b.input, t)!,
       ring: Color.lerp(a.ring, b.ring, t)!,
+      selection: Color.lerp(a.selection, b.selection, t)!,
       chart1: Color.lerp(a.chart1, b.chart1, t)!,
       chart2: Color.lerp(a.chart2, b.chart2, t)!,
       chart3: Color.lerp(a.chart3, b.chart3, t)!,
@@ -631,6 +641,7 @@ class ColorScheme implements ChartColorScheme {
           border == other.border &&
           input == other.input &&
           ring == other.ring &&
+          selection == other.selection &&
           chart1 == other.chart1 &&
           chart2 == other.chart2 &&
           chart3 == other.chart3 &&
@@ -659,6 +670,7 @@ class ColorScheme implements ChartColorScheme {
       border.hashCode ^
       input.hashCode ^
       ring.hashCode ^
+      selection.hashCode ^
       chart1.hashCode ^
       chart2.hashCode ^
       chart3.hashCode ^
@@ -667,7 +679,7 @@ class ColorScheme implements ChartColorScheme {
 
   @override
   String toString() {
-    return 'ColorScheme{brightness: $brightness, background: $background, foreground: $foreground, card: $card, cardForeground: $cardForeground, popover: $popover, popoverForeground: $popoverForeground, primary: $primary, primaryForeground: $primaryForeground, secondary: $secondary, secondaryForeground: $secondaryForeground, muted: $muted, mutedForeground: $mutedForeground, accent: $accent, accentForeground: $accentForeground, destructive: $destructive, destructiveForeground: $destructiveForeground, border: $border, input: $input, ring: $ring, chart1: $chart1, chart2: $chart2, chart3: $chart3, chart4: $chart4, chart5: $chart5}';
+    return 'ColorScheme{brightness: $brightness, background: $background, foreground: $foreground, card: $card, cardForeground: $cardForeground, popover: $popover, popoverForeground: $popoverForeground, primary: $primary, primaryForeground: $primaryForeground, secondary: $secondary, secondaryForeground: $secondaryForeground, muted: $muted, mutedForeground: $mutedForeground, accent: $accent, accentForeground: $accentForeground, destructive: $destructive, destructiveForeground: $destructiveForeground, border: $border, input: $input, ring: $ring, selection: $selection, chart1: $chart1, chart2: $chart2, chart3: $chart3, chart4: $chart4, chart5: $chart5}';
   }
 }
 
