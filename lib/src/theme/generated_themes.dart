@@ -51,6 +51,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -81,6 +82,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -119,6 +121,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -149,6 +152,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -187,6 +191,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -217,6 +222,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -255,6 +261,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -285,6 +292,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -323,6 +331,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -353,6 +362,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -391,6 +401,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -421,6 +432,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -459,6 +471,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -489,6 +502,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -527,6 +541,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -557,6 +572,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -595,6 +611,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -625,6 +642,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -663,6 +681,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -693,6 +712,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -731,6 +751,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -761,6 +782,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 
@@ -799,6 +821,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 197.0, 0.37, 0.24).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 43.0, 0.74, 0.66).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 27.0, 0.87, 0.67).toColor(),
+			selection: const HSLColor.fromAHSL(1, 211.7, 0.96, 0.78).toColor(),
 		);
 	}
 
@@ -829,6 +852,7 @@ class ColorSchemes {
 			chart3: const HSLColor.fromAHSL(1, 30.0, 0.8, 0.55).toColor(),
 			chart4: const HSLColor.fromAHSL(1, 280.0, 0.65, 0.6).toColor(),
 			chart5: const HSLColor.fromAHSL(1, 340.0, 0.75, 0.55).toColor(),
+			selection: const HSLColor.fromAHSL(1, 215.0, 0.4, 0.3).toColor(),
 		);
 	}
 

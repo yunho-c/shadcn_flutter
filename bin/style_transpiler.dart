@@ -25,6 +25,7 @@ Map<String, String> paramMapping = {
   'chart-3': 'chart3',
   'chart-4': 'chart4',
   'chart-5': 'chart5',
+  'selection': 'selection',
 };
 
 main() {
@@ -117,6 +118,16 @@ String printTheme(String name, Map config) {
   }
   for (final entry in (config[dark] as Map).entries) {
     darkValues[entry.key] = entry.value as String;
+  }
+
+  // Add default selection colors if they are not defined in the theme CSS data.
+  if (!values.containsKey('selection')) {
+    // A generic light blue, similar to system selection.
+    values['selection'] = '211.7 96.4% 78.4%';
+  }
+  if (!darkValues.containsKey('selection')) {
+    // A darker, less saturated blue for dark mode.
+    darkValues['selection'] = '215 40% 30%';
   }
   // String name = 'Stone';
   // capitalize first letter
